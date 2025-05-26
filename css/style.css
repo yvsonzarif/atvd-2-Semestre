@@ -1,0 +1,38 @@
+body {
+  font-family:  Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+
+section {
+    font-size: 20px;
+  background-color: black;
+  padding: 50px;
+  margin: 60px;
+  color: grey;
+margin-right: 10vh;
+}
+
+button {
+    background-color: orange;
+    height: 50px;
+    width: 150px;
+    border-radius:  4px;
+}
+
+.titulo {
+  color: #fff; /* branco */
+  
+}
+
+.preco {
+  color: #FFD700; /* amarelo (gold) */
+  font-weight: bold;
+}
+
