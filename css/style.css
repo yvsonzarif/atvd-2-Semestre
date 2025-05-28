@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+  margin: 20px;
     text-align: center;
 }
 h2 {
@@ -14,9 +15,9 @@ section {
     font-size: 20px;
   background-color: black;
   padding: 50px;
-  margin: 60px;
+  margin: 40px;
   color: grey;
-margin-right: 10vh;
+  margin-right: 10vh;
 }
 
 button {
@@ -24,6 +25,7 @@ button {
     height: 50px;
     width: 150px;
     border-radius:  4px;
+    padding: 5px;
 }
 
 .titulo {
@@ -32,7 +34,11 @@ button {
 }
 
 .preco {
-  color: #FFD700; /* amarelo (gold) */
+  color: orange; /* amarelo (gold) */
   font-weight: bold;
+}
+
+button:hover {
+ cursor: pointer;
 }
 
