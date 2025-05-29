@@ -1,0 +1,71 @@
+.quilometragem {
+  color: orange;
+}
+ 
+.ano {
+  color: orange;
+}
+
+
+body {
+  font-family:  Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+
+section {
+    font-size: 20px;
+  background-color: black;
+  padding: 50px;
+  margin: 40px;
+  color: grey;
+  margin-right: 10vh;
+}
+
+button {
+    background-color: orange;
+    height: 50px;
+    width: 150px;
+    border-radius:  4px;
+    padding: 4px;
+}
+
+.titulo {
+  color: #fff; /* branco */
+  
+}
+
+.preco {
+  color: orange; /* amarelo (gold) */
+  font-weight: bold;
+}
+
+button:hover {
+ cursor: pointer;
+}
+
+
+.produto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.produtobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.produto img {
+  border-radius: 100%;
+}
+
+
